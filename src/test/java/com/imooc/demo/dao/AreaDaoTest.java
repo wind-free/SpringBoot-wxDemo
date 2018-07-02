@@ -45,7 +45,7 @@ public class AreaDaoTest {
         area.setAreaId(3);
         area.setAreaName("西苑");
         area.setLastEditTime(new Date());
-        int effectedNum=areaDao.uodateArea(area);
+        int effectedNum=areaDao.updateArea(area);
         assertEquals(1,effectedNum);
     }
 
